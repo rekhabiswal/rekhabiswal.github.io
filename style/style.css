@@ -1,0 +1,155 @@
+body {
+    width:960px;
+    margin: 0px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#666;
+}
+
+p {
+    margin-top:20px;
+    margin-bottom:20px;
+    line-height:150%;
+}
+
+body>header {
+    background: #008000;
+    padding: 20px;
+
+    clear: both;
+}
+
+body>header hgroup h1 {
+    font-size: 2.2em;
+    margin-bottom:10px;
+    color: #fff;
+}
+
+body>header hgroup h2 {
+    font-size: 1.0em;
+    color: #fff;
+}
+
+body>section {
+    width: 880px;
+    float:left;
+}
+
+body>p {
+    width: 900px;
+}
+
+body>footer {
+    height:20px;
+    clear:both;
+}
+
+nav {
+    height:40px;
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+    clear:both;
+}
+
+nav ul {
+    padding:0; margin:0;
+    list-style: none;
+}
+
+nav ul li {
+    display: block;
+    float: left;
+    margin-right: 0px;
+    padding:0;
+}
+
+nav ul li a {
+    color: #000;
+    background: #fff;
+    text-decoration: none;
+    padding:12px;
+    display:block;
+    margin:0;
+}
+
+nav ul li a:hover {
+    background: #505050;
+}
+
+ol {
+    display: block;
+}
+
+ol li {
+    display: list-item;
+    margin-right: 20px;
+    padding: 1.2mm;
+}
+
+ul li {
+    display: list-item;
+    padding: 1.2mm;
+}
+
+body>article {
+    width:710px;
+    padding:10px;
+    float: left;
+}
+
+article>header {
+    border: 1px #666 dotted;
+    padding:10px;
+}
+
+article>header h1 {
+    color: #000;
+    font-size: 1.6em;
+}
+
+article>header time {
+    font-size: 0.7em;
+}
+
+section {
+    padding-bottom:20px;
+}
+
+section>header h1 {
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size: 1.5em;
+    color: #666;
+}
+
+section>header h2 {
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size: 1.3em;
+    color: #666;
+}
+
+body>aside {
+    width:190px;
+    padding:20px;
+    padding-bottom:0px;
+    float: left;
+    background: #ccc;
+    color: #000;
+    font-size:0.8em;
+}
+
+aside>header{
+    padding-top:20px;
+}
+
+aside>header h1 { 
+    font-size: 1.5em;
+    color: #000;
+}
+
+em {
+    font-weight: bold;
+    font-style: normal;
+}
+
